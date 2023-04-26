@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+html,
+body,
+#root,
+.app
+.content{
+  height: 100%;
+  width: 100%;
+  font-family: 'Source Sans Pro',sans-serif;
+}
+.details{
+  display: flex;
+  flex-direction: column;
+  
+  font-family: 'Source Sans Pro',sans-serif;
+}
+.app{
+  display: flex;
+  position: relative;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track{
+  background: #e0e0e0;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #888;
+}
+
+::-webkit-scrollbar-track:hover{
+  background: #555;
+}
+
+#good{
+  display: flexbox;
+  position: absolute;
+  margin-left: 100px;
+  margin-top:10px;
+}
+
+#p1{
+  font-size: 27px;
+  color: white;
+  font-family: 'Source Sans Pro',sans-serif;
+  
+  /* border-left: 5px solid;
+  border-color: blueviolet;*/
+  /* background-color: darkcyan;  */
+  
+  /* text-transform: lowercase; */
+}
+#hoh{
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 40px;
+  color: #6870fa;
+}
+/* #nice{
+  padding: 5px;
+  margin: 20px;
+  border: solid;
+  border-radius: 10px;
+} */
+
+#box {
+  display: block;
+}
+
+#nice {
+  height: auto;
+  width: 60vw;
+  padding: 30px;
+  margin: 50px auto;
+  /* background: internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133)); */
+  background:#434957;
+  border-radius: 5px;
+  box-shadow: 25px 25px 15px -5px rgba(0, 0, 0, 0.5);
+}
