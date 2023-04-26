@@ -31,7 +31,7 @@ const Steps = () => {
 
   const [data, setData] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/getAllJob", {
+    fetch("https://server-tzfy.onrender.com", {
       method: "GET",
     })
       .then((res) => res.json())

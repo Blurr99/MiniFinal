@@ -43,7 +43,7 @@ const Team = () => {
 
   const [data, setData] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/getHome", {
+    fetch("https://server-tzfy.onrender.com", {
       method: "GET",
     })
       .then((res) => res.json())
