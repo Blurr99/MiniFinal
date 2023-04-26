@@ -23,7 +23,7 @@ require("./models/Item");
 
 const job = mongoose.model("resolution");
 
-app.get("/getAllJob", async(req,res)=>{
+app.get("https://server-tzfy.onrender.com/getAllJob", async(req,res)=>{
   try{
       const alljob = await job.find({});
       res.send({data: alljob});
@@ -36,7 +36,7 @@ app.get("/getAllJob", async(req,res)=>{
 require("./models/Resolution");
 const home = mongoose.model("home");
 
-app.get("/getHome", async(req,res)=>{
+app.get("https://server-tzfy.onrender.com/getHome", async(req,res)=>{
   try{
     const allhome = await home.find({});
     res.send({data: allhome});
